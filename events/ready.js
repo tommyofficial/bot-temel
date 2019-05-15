@@ -21,6 +21,6 @@ module.exports = client => {
 
         var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
 
-        client.user.setGame(oyun[random], "https://www.youtube.com/watch?v=lnFNeqi4FT8");
+        client.user.setGame(oyun[random], "https://www.twitch.tv/kendinemuzisyen.com");
         }, 2 * 2500);
 }
